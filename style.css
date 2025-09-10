@@ -1,6 +1,34 @@
 *{
     font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+}
+
+.img-box{
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    /* top: 20px; */
+    right: 100px;
+ }
+.back-img{
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s;
+}
+.main-img{
+    height: 110%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: left 1s;
+}
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+.img-box:hover .main-img{
+    left: 54%;
 }
